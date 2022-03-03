@@ -27,7 +27,7 @@ function verify () {
   img.setAttribute('id', 'img')
 
   // verificar qual radio foi selecionado
-  if (gender[0]) {
+  if (gender[0].checked) {
     // se for o radio 0 é um homem
     genre = 'homem'
     prefix = 'um'
@@ -42,7 +42,7 @@ function verify () {
     } else if (age >= 60) {
       img.setAttribute('src','assets/foto-idoso-m.png')
     }
-  }  else if (gender[1]) {
+  }  else if (gender[1].checked) {
     // se o radio selecionado for 1 é uma mulher
     genre = 'mulher'
     prefix = 'uma'
