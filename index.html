@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Identificador de idade - Lucas Ribeiro</title>
-</head>
-<body>
-  <main>
-    <article class="container">
-      <header>
-        <span id="periodMsg">Identificador de idade</span>
-      </header>
-      <section>
-        <div class="form">
-          <span>
-            Ano de nascimento
-            <input type="number" name="txtyear" id="txtyear">
-          </span>
-          <span>
-            Sexo
-            <input type="radio" name="radsex" id="masc">
-            <label for="masc">Masculino</label>
-            <input type="radio" name="radsex" id="fem">
-            <label for="fem">Feminino</label>
-          </span>
-          <input type="button" value="Verificar" onclick="verify ()">
-        </div>
-        <div id="result">
-        
-        </div>        
-      </section>
-    </article>
-  </main>
-  <footer>
-    Identificador de idade - Lucas Ribeiro
-  </footer>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Identificador de idade - Lucas Ribeiro</title>
+  </head>
+  <body>
+    <main>
+      <article class="container">
+        <header>
+          <span>Identificador de idade</span>
+        </header>
+        <section>
+          <div class="form">
+            <span>
+              Ano de nascimento
+              <input type="number" name="txtyear" id="txtyear" />
+            </span>
+            <span>
+              Sexo
+              <input type="radio" name="radsex" id="masc" />
+              <label for="masc">Masculino</label>
+              <input type="radio" name="radsex" id="fem" />
+              <label for="fem">Feminino</label>
+            </span>
+            <input type="button" value="Verificar" onclick="verify ()" />
+          </div>
+          <div id="result"></div>
+        </section>
+      </article>
+    </main>
+    <footer>Identificador de idade - Lucas Ribeiro</footer>
+    <script src="script.js"></script>
+  </body>
 </html>
